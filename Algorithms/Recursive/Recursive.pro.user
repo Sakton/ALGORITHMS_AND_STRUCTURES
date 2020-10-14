@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 4.13.2, 2020-10-13T22:21:14. -->
+<!-- Written by QtCreator 4.13.2, 2020-10-14T19:33:21. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -92,12 +92,12 @@
    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">qt.qt5.5150.win64_msvc2019_64_kit</value>
    <value type="int" key="ProjectExplorer.Target.ActiveBuildConfiguration">0</value>
    <value type="int" key="ProjectExplorer.Target.ActiveDeployConfiguration">0</value>
-   <value type="int" key="ProjectExplorer.Target.ActiveRunConfiguration">5</value>
+   <value type="int" key="ProjectExplorer.Target.ActiveRunConfiguration">3</value>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.BuildConfiguration.0">
     <value type="bool">true</value>
     <value type="int" key="EnableQmlDebugging">0</value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">E:\Project_CPP_QT\ALGORITHMS_AND_STRUCTURES\Algorithms_and_Structures\algorithms_and_structures\Algorithms\build-Recursive-Desktop_Qt_5_15_0_MSVC2019_64bit-Debug</value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">E:/Project_CPP_QT/ALGORITHMS_AND_STRUCTURES/Algorithms_and_Structures/algorithms_and_structures/Algorithms/build-Recursive-Desktop_Qt_5_15_0_MSVC2019_64bit-Debug</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">E:\Project_CPP_QT\ALGORITHMS_AND_STRUCTURES\ALGORITHMS_AND_STRUCTURES\Algorithms\__Debugs__</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">E:/Project_CPP_QT/ALGORITHMS_AND_STRUCTURES/ALGORITHMS_AND_STRUCTURES/Algorithms/__Debugs__</value>
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
@@ -325,8 +325,9 @@
     <valuelist type="QVariantList" key="CustomOutputParsers"/>
     <value type="int" key="PE.EnvironmentAspect.Base">2</value>
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:E:/Project_CPP_QT/ALGORITHMS_AND_STRUCTURES/Algorithms_and_Structures/algorithms_and_structures/Algorithms/Recursive/CalcPrefix/CalcPrefix.pro</value>
-    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">E:/Project_CPP_QT/ALGORITHMS_AND_STRUCTURES/Algorithms_and_Structures/algorithms_and_structures/Algorithms/Recursive/CalcPrefix/CalcPrefix.pro</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">CalcPrefix2</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:E:/Project_CPP_QT/ALGORITHMS_AND_STRUCTURES/ALGORITHMS_AND_STRUCTURES/Algorithms/Recursive/CalcPrefix/CalcPrefix.pro</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">E:/Project_CPP_QT/ALGORITHMS_AND_STRUCTURES/ALGORITHMS_AND_STRUCTURES/Algorithms/Recursive/CalcPrefix/CalcPrefix.pro</value>
     <value type="QString" key="RunConfiguration.Arguments"></value>
     <value type="bool" key="RunConfiguration.Arguments.multi">false</value>
     <value type="QString" key="RunConfiguration.OverrideDebuggerStartup"></value>
@@ -337,7 +338,7 @@
     <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
     <value type="QString" key="RunConfiguration.WorkingDirectory"></value>
-    <value type="QString" key="RunConfiguration.WorkingDirectory.default">E:/Project_CPP_QT/ALGORITHMS_AND_STRUCTURES/Algorithms_and_Structures/algorithms_and_structures/Algorithms/build-Recursive-Desktop_Qt_5_15_0_MSVC2019_64bit-Debug/CalcPrefix</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">E:/Project_CPP_QT/ALGORITHMS_AND_STRUCTURES/ALGORITHMS_AND_STRUCTURES/Algorithms/__Debugs__/CalcPrefix</value>
    </valuemap>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.1">
     <value type="QString" key="Analyzer.Perf.CallgraphMode">dwarf</value>
@@ -400,8 +401,9 @@
     <valuelist type="QVariantList" key="CustomOutputParsers"/>
     <value type="int" key="PE.EnvironmentAspect.Base">2</value>
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:E:/Project_CPP_QT/ALGORITHMS_AND_STRUCTURES/Algorithms_and_Structures/algorithms_and_structures/Algorithms/Recursive/GcdEuklid/GcdEuklid.pro</value>
-    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">E:/Project_CPP_QT/ALGORITHMS_AND_STRUCTURES/Algorithms_and_Structures/algorithms_and_structures/Algorithms/Recursive/GcdEuklid/GcdEuklid.pro</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">Fiabonachchi2</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:E:/Project_CPP_QT/ALGORITHMS_AND_STRUCTURES/ALGORITHMS_AND_STRUCTURES/Algorithms/Recursive/Fiabonachchi/Fiabonachchi.pro</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">E:/Project_CPP_QT/ALGORITHMS_AND_STRUCTURES/ALGORITHMS_AND_STRUCTURES/Algorithms/Recursive/Fiabonachchi/Fiabonachchi.pro</value>
     <value type="QString" key="RunConfiguration.Arguments"></value>
     <value type="bool" key="RunConfiguration.Arguments.multi">false</value>
     <value type="QString" key="RunConfiguration.OverrideDebuggerStartup"></value>
@@ -412,7 +414,7 @@
     <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
     <value type="QString" key="RunConfiguration.WorkingDirectory"></value>
-    <value type="QString" key="RunConfiguration.WorkingDirectory.default">E:/Project_CPP_QT/ALGORITHMS_AND_STRUCTURES/Algorithms_and_Structures/algorithms_and_structures/Algorithms/build-Recursive-Desktop_Qt_5_15_0_MSVC2019_64bit-Debug/GcdEuklid</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">E:/Project_CPP_QT/ALGORITHMS_AND_STRUCTURES/ALGORITHMS_AND_STRUCTURES/Algorithms/__Debugs__/Fiabonachchi</value>
    </valuemap>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.2">
     <value type="QString" key="Analyzer.Perf.CallgraphMode">dwarf</value>
@@ -475,8 +477,9 @@
     <valuelist type="QVariantList" key="CustomOutputParsers"/>
     <value type="int" key="PE.EnvironmentAspect.Base">2</value>
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:E:/Project_CPP_QT/ALGORITHMS_AND_STRUCTURES/Algorithms_and_Structures/algorithms_and_structures/Algorithms/Recursive/MaxInArray/MaxInArray.pro</value>
-    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">E:/Project_CPP_QT/ALGORITHMS_AND_STRUCTURES/Algorithms_and_Structures/algorithms_and_structures/Algorithms/Recursive/MaxInArray/MaxInArray.pro</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">GcdEuklid2</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:E:/Project_CPP_QT/ALGORITHMS_AND_STRUCTURES/ALGORITHMS_AND_STRUCTURES/Algorithms/Recursive/GcdEuklid/GcdEuklid.pro</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">E:/Project_CPP_QT/ALGORITHMS_AND_STRUCTURES/ALGORITHMS_AND_STRUCTURES/Algorithms/Recursive/GcdEuklid/GcdEuklid.pro</value>
     <value type="QString" key="RunConfiguration.Arguments"></value>
     <value type="bool" key="RunConfiguration.Arguments.multi">false</value>
     <value type="QString" key="RunConfiguration.OverrideDebuggerStartup"></value>
@@ -487,7 +490,7 @@
     <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
     <value type="QString" key="RunConfiguration.WorkingDirectory"></value>
-    <value type="QString" key="RunConfiguration.WorkingDirectory.default">E:/Project_CPP_QT/ALGORITHMS_AND_STRUCTURES/Algorithms_and_Structures/algorithms_and_structures/Algorithms/build-Recursive-Desktop_Qt_5_15_0_MSVC2019_64bit-Debug/MaxInArray</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">E:/Project_CPP_QT/ALGORITHMS_AND_STRUCTURES/ALGORITHMS_AND_STRUCTURES/Algorithms/__Debugs__/GcdEuklid</value>
    </valuemap>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.3">
     <value type="QString" key="Analyzer.Perf.CallgraphMode">dwarf</value>
@@ -550,8 +553,9 @@
     <valuelist type="QVariantList" key="CustomOutputParsers"/>
     <value type="int" key="PE.EnvironmentAspect.Base">2</value>
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:E:/Project_CPP_QT/ALGORITHMS_AND_STRUCTURES/Algorithms_and_Structures/algorithms_and_structures/Algorithms/Recursive/Hanoi/Hanoi.pro</value>
-    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">E:/Project_CPP_QT/ALGORITHMS_AND_STRUCTURES/Algorithms_and_Structures/algorithms_and_structures/Algorithms/Recursive/Hanoi/Hanoi.pro</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">Hanoi2</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:E:/Project_CPP_QT/ALGORITHMS_AND_STRUCTURES/ALGORITHMS_AND_STRUCTURES/Algorithms/Recursive/Hanoi/Hanoi.pro</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">E:/Project_CPP_QT/ALGORITHMS_AND_STRUCTURES/ALGORITHMS_AND_STRUCTURES/Algorithms/Recursive/Hanoi/Hanoi.pro</value>
     <value type="QString" key="RunConfiguration.Arguments"></value>
     <value type="bool" key="RunConfiguration.Arguments.multi">false</value>
     <value type="QString" key="RunConfiguration.OverrideDebuggerStartup"></value>
@@ -562,7 +566,7 @@
     <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
     <value type="QString" key="RunConfiguration.WorkingDirectory"></value>
-    <value type="QString" key="RunConfiguration.WorkingDirectory.default">E:/Project_CPP_QT/ALGORITHMS_AND_STRUCTURES/Algorithms_and_Structures/algorithms_and_structures/Algorithms/build-Recursive-Desktop_Qt_5_15_0_MSVC2019_64bit-Debug/Hanoi</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">E:/Project_CPP_QT/ALGORITHMS_AND_STRUCTURES/ALGORITHMS_AND_STRUCTURES/Algorithms/__Debugs__/Hanoi</value>
    </valuemap>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.4">
     <value type="QString" key="Analyzer.Perf.CallgraphMode">dwarf</value>
@@ -625,8 +629,9 @@
     <valuelist type="QVariantList" key="CustomOutputParsers"/>
     <value type="int" key="PE.EnvironmentAspect.Base">2</value>
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:E:/Project_CPP_QT/ALGORITHMS_AND_STRUCTURES/Algorithms_and_Structures/algorithms_and_structures/Algorithms/Recursive/LineykaRule/LineykaRule.pro</value>
-    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">E:/Project_CPP_QT/ALGORITHMS_AND_STRUCTURES/Algorithms_and_Structures/algorithms_and_structures/Algorithms/Recursive/LineykaRule/LineykaRule.pro</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">LineykaRule2</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:E:/Project_CPP_QT/ALGORITHMS_AND_STRUCTURES/ALGORITHMS_AND_STRUCTURES/Algorithms/Recursive/LineykaRule/LineykaRule.pro</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">E:/Project_CPP_QT/ALGORITHMS_AND_STRUCTURES/ALGORITHMS_AND_STRUCTURES/Algorithms/Recursive/LineykaRule/LineykaRule.pro</value>
     <value type="QString" key="RunConfiguration.Arguments"></value>
     <value type="bool" key="RunConfiguration.Arguments.multi">false</value>
     <value type="QString" key="RunConfiguration.OverrideDebuggerStartup"></value>
@@ -637,7 +642,7 @@
     <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
     <value type="QString" key="RunConfiguration.WorkingDirectory"></value>
-    <value type="QString" key="RunConfiguration.WorkingDirectory.default">E:/Project_CPP_QT/ALGORITHMS_AND_STRUCTURES/Algorithms_and_Structures/algorithms_and_structures/Algorithms/build-Recursive-Desktop_Qt_5_15_0_MSVC2019_64bit-Debug/LineykaRule</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">E:/Project_CPP_QT/ALGORITHMS_AND_STRUCTURES/ALGORITHMS_AND_STRUCTURES/Algorithms/__Debugs__/LineykaRule</value>
    </valuemap>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.5">
     <value type="QString" key="Analyzer.Perf.CallgraphMode">dwarf</value>
@@ -700,8 +705,9 @@
     <valuelist type="QVariantList" key="CustomOutputParsers"/>
     <value type="int" key="PE.EnvironmentAspect.Base">2</value>
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:E:/Project_CPP_QT/ALGORITHMS_AND_STRUCTURES/Algorithms_and_Structures/algorithms_and_structures/Algorithms/Recursive/Fiabonachchi/Fiabonachchi.pro</value>
-    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">E:/Project_CPP_QT/ALGORITHMS_AND_STRUCTURES/Algorithms_and_Structures/algorithms_and_structures/Algorithms/Recursive/Fiabonachchi/Fiabonachchi.pro</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">MaxInArray2</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:E:/Project_CPP_QT/ALGORITHMS_AND_STRUCTURES/ALGORITHMS_AND_STRUCTURES/Algorithms/Recursive/MaxInArray/MaxInArray.pro</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">E:/Project_CPP_QT/ALGORITHMS_AND_STRUCTURES/ALGORITHMS_AND_STRUCTURES/Algorithms/Recursive/MaxInArray/MaxInArray.pro</value>
     <value type="QString" key="RunConfiguration.Arguments"></value>
     <value type="bool" key="RunConfiguration.Arguments.multi">false</value>
     <value type="QString" key="RunConfiguration.OverrideDebuggerStartup"></value>
@@ -712,7 +718,7 @@
     <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
     <value type="QString" key="RunConfiguration.WorkingDirectory"></value>
-    <value type="QString" key="RunConfiguration.WorkingDirectory.default">E:/Project_CPP_QT/ALGORITHMS_AND_STRUCTURES/Algorithms_and_Structures/algorithms_and_structures/Algorithms/build-Recursive-Desktop_Qt_5_15_0_MSVC2019_64bit-Debug/Fiabonachchi</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">E:/Project_CPP_QT/ALGORITHMS_AND_STRUCTURES/ALGORITHMS_AND_STRUCTURES/Algorithms/__Debugs__/MaxInArray</value>
    </valuemap>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.6">
     <value type="QString" key="Analyzer.Perf.CallgraphMode">dwarf</value>
@@ -775,8 +781,9 @@
     <valuelist type="QVariantList" key="CustomOutputParsers"/>
     <value type="int" key="PE.EnvironmentAspect.Base">2</value>
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:E:/Project_CPP_QT/ALGORITHMS_AND_STRUCTURES/Algorithms_and_Structures/algorithms_and_structures/Algorithms/Recursive/PowAcrossSumm/PowAcrossSumm.pro</value>
-    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">E:/Project_CPP_QT/ALGORITHMS_AND_STRUCTURES/Algorithms_and_Structures/algorithms_and_structures/Algorithms/Recursive/PowAcrossSumm/PowAcrossSumm.pro</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">PowAcrossSumm2</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:E:/Project_CPP_QT/ALGORITHMS_AND_STRUCTURES/ALGORITHMS_AND_STRUCTURES/Algorithms/Recursive/PowAcrossSumm/PowAcrossSumm.pro</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">E:/Project_CPP_QT/ALGORITHMS_AND_STRUCTURES/ALGORITHMS_AND_STRUCTURES/Algorithms/Recursive/PowAcrossSumm/PowAcrossSumm.pro</value>
     <value type="QString" key="RunConfiguration.Arguments"></value>
     <value type="bool" key="RunConfiguration.Arguments.multi">false</value>
     <value type="QString" key="RunConfiguration.OverrideDebuggerStartup"></value>
@@ -787,7 +794,7 @@
     <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
     <value type="QString" key="RunConfiguration.WorkingDirectory"></value>
-    <value type="QString" key="RunConfiguration.WorkingDirectory.default">E:/Project_CPP_QT/ALGORITHMS_AND_STRUCTURES/Algorithms_and_Structures/algorithms_and_structures/Algorithms/build-Recursive-Desktop_Qt_5_15_0_MSVC2019_64bit-Debug/PowAcrossSumm</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">E:/Project_CPP_QT/ALGORITHMS_AND_STRUCTURES/ALGORITHMS_AND_STRUCTURES/Algorithms/__Debugs__/PowAcrossSumm</value>
    </valuemap>
    <value type="int" key="ProjectExplorer.Target.RunConfigurationCount">7</value>
   </valuemap>
