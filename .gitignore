@@ -6,7 +6,11 @@
 # Node artifact files
 node_modules/
 dist/
+
 __Debugs__/
+build*/
+debug/
+
 
 # Compiled Java class files
 *.class
