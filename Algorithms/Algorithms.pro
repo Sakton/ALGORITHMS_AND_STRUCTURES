@@ -7,6 +7,7 @@ SUBDIRS += \
 	ConnectivityProblem \
 	DynamicProgramming \
 	InfixToPostfix \
+	MetodDeleniyaPopolam \
 	Recursive \
 	Resheto_Eratosfena \
 	RootNumber \
