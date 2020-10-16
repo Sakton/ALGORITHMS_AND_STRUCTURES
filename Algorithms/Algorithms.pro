@@ -8,6 +8,7 @@ SUBDIRS += \
 	DynamicProgramming \
 	InfixToPostfix \
 	MetodDeleniyaPopolam \
+	Permutations \
 	Recursive \
 	Resheto_Eratosfena \
 	RootNumber \

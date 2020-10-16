@@ -14,7 +14,12 @@ int GcdEuklid( int a, int b )
     return GcdEuklid( b, a % b );
 }
 
-int main()
-{
-    std::cout << GcdEuklid( 50, 15 );
+//можно сократить
+int GcdEuclid1( int a, int b ) {
+  return ( b == 0 ) ? a : GcdEuclid1( b, a % b );
+}
+
+int main( ) {
+  std::cout << GcdEuklid( 50, 15 ) << std::endl;
+  std::cout << GcdEuclid1( 50, 15 );
 }
