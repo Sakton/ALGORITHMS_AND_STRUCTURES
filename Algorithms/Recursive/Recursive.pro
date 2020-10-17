@@ -1,6 +1,7 @@
 TEMPLATE = subdirs
 
 SUBDIRS += \
+	AntonSprolRecursive \
 	BynaryGenerator \
 	CalcPrefix \
 	Fiabonachchi \
