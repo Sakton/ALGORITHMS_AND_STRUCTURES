@@ -1,4 +1,5 @@
 TEMPLATE = subdirs
 
 SUBDIRS += \
-	FiabonachchiDynamic
+	FiabonachchiDynamic \
+	Hopper_Economist

@@ -6,6 +6,8 @@
 a b c a b c a  b  c  a  b  c
 */
 
+//восходящее динамическое программирование
+
 int FiabonachichiDymamic( int n ) {
   int a = 1;
   int b = 1;
@@ -32,4 +34,19 @@ int FiabonachichiDymamic1( int n ) {
   return f;
 }
 
-int main( ) { std::cout << FiabonachichiDymamic( 12 ) << std::endl; }
+// нисходящее динамическое программирование
+//Седжевик 5.11 стр. 204
+
+int F( int n ) {
+  static int knownF[ 20 ];  //массив уже вычисленных значений
+  if ( knownF[ n ] != 0 ) return knownF[ n ];
+  int t = n;  //при n <= 1 установит значение в базовых случаях
+  if ( n < 0 ) return 0;
+  if ( n > 1 ) t = F( n - 1 ) + F( n - 2 );
+  return knownF[ n ] = t;
+}
+
+int main( ) {
+  std::cout << FiabonachichiDymamic( 12 ) << std::endl;
+  std::cout << F( 12 ) << std::endl;
+}
