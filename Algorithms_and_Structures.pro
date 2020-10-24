@@ -2,4 +2,5 @@ TEMPLATE = subdirs
 
 SUBDIRS += \
 	Algorithms \
-	Structures
+	Structures \
+	Timer
