@@ -24,6 +24,8 @@ class Timer {
 /*
 K(i,j) = K(i - 1,j) + K(i, j - 1)
 Сложность O(C(i, j))) - Количество сочетаний i по j
+https://www.youtube.com/watch?v=4E-_uzO0A_A&t=11361s
+
 */
 
 int64_t CountPathesRecursive( int row, int col ) {
@@ -35,6 +37,10 @@ int64_t CountPathesRecursive( int row, int col ) {
     return CountPathesRecursive( row - 1, col ) +
            CountPathesRecursive( row, col - 1 );
 }
+
+/*
+Сложность O(M*N)
+*/
 
 int64_t CountPathesDynamic( int row, int col ) {
   // 1. Подготовка 2мерн массива
