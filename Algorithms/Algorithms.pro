@@ -7,6 +7,7 @@ SUBDIRS += \
 	ConnectivityProblem \
 	DynamicProgramming \
 	InfixToPostfix \
+	LevesteinLenth \
 	MetodDeleniyaPopolam \
 	Permutations \
 	Recursive \

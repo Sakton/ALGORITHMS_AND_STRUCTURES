@@ -15,18 +15,18 @@ void RadixLsd( int arr[], int l, int r ) {
   for ( int radix = 0; radix < 32; ++radix ) {
     int index0 = 0;
     int index1 = 0;
-    for ( int i = l; i <= r; ++i ) {
-      if ( ( arr[ i ] & ( 1 << radix ) ) == 0 ) {
+    for ( int i = l; i <= r; ++i ) {  //разложить по кучкам в зависимости от наличия 1 в разряде
+      if ( ( arr[ i ] & ( 1 << radix ) ) == 0 ) {  //масочку ёк
         heap_0[ index0++ ] = arr[ i ];
       } else {
         heap_1[ index1++ ] = arr[ i ];
       }
     }
     int ii = 0;
-    for ( int i = 0; i < index0; ++i ) {
+    for ( int i = 0; i < index0; ++i ) {  //сложить в кучу спева эти
       arr[ ii++ ] = heap_0[ i ];
     }
-    for ( int i = 0; i < index1; ++i ) {
+    for ( int i = 0; i < index1; ++i ) {  // сверху эти
       arr[ ii++ ] = heap_1[ i ];
     }
   }
