@@ -6,6 +6,7 @@ SUBDIRS += \
 	CalcPostfix \
 	ConnectivityProblem \
 	DynamicProgramming \
+	GRAPHY \
 	InfixToPostfix \
 	LevesteinLenth \
 	MetodDeleniyaPopolam \
