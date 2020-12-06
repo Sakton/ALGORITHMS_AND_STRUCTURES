@@ -2,4 +2,5 @@ TEMPLATE = subdirs
 
 SUBDIRS += \
 	DynamicArray \
-	Lists
+	Lists \
+	MyVector
