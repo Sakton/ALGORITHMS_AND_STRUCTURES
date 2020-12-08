@@ -9,8 +9,9 @@ template < typename T >
 class MyVector;
 
 template < typename T >
-class MyVectorIterator {
-  using type_name = T;
+class MyVectorIterator /*: public std::iterator< std::random_access_iterator_tag, T >*/ {
+  using iterator_category = std::random_access_iterator_tag;
+  using type_name = T /*typename std::iterator_traits< T >*/;
   using reference = type_name&;
   using const_reference = const type_name&;
   using pointer = type_name*;
@@ -60,6 +61,43 @@ class MyVectorIterator {
 };
 
 template < typename T >
+class MyVectorIteratorConst {
+  using iterator_category = std::random_access_iterator_tag;
+  using type_name = T;
+  using reference = type_name&;
+  using const_reference = const type_name&;
+  using pointer = type_name*;
+  using pointer_on_const = const type_name*;
+
+  friend class MyVector< T >;
+  MyVectorIteratorConst( pointer p = nullptr ) : p_ { p } {}
+
+ public:
+  MyVectorIteratorConst( const MyVectorIteratorConst& oth ) : p_ { oth.p_ } {}
+  const_reference operator*( ) const { return *p_; }
+  pointer_on_const operator->( ) const { return p_; }
+  pointer_on_const operator++( ) const { return ++p_; }
+  pointer_on_const operator++( int ) const {
+    pointer t = p_;
+    ++p_;
+    return t;
+  }
+  pointer_on_const operator--( ) const { p_--; }
+
+  pointer_on_const operator--( int ) const {
+    pointer t = p_;
+    --p_;
+    return t;
+  }
+
+  bool operator==( const MyVectorIteratorConst& othI ) const { return othI.p_ == p_; }
+  bool operator!=( const MyVectorIteratorConst& othI ) const { return othI.p_ != p_; }
+
+ private:
+  mutable pointer p_;
+};
+
+template < typename T >
 class MyReverseIterator {
   using type_name = T;
   using reference = type_name&;
@@ -83,7 +121,7 @@ class MyVector {
   using reference = type_name&;
   using const_reference = const type_name&;
   using iterator = MyVectorIterator< T >;
-  using const_iterator = const MyVectorIterator< T >;
+  using const_iterator = MyVectorIteratorConst< T >;
   using size_type = std::size_t;
 
   MyVector( );

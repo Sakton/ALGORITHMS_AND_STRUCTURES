@@ -13,7 +13,7 @@ int main( ) {
   }
 
   for ( auto it = myVector.cbegin( ); it != myVector.cend( ); ++it ) {
-    *it = 10;
+    //*it = 10;
     std::cout << *it << " ";
   }
 
@@ -22,7 +22,7 @@ int main( ) {
 
   //  for ( auto &el : vv ) std::cout << el << " ";
 
-  // std::copy( myVector.begin( ), myVector.end( ), std::ostream_iterator< int >( std::cout, " " ) );
+  std::copy( myVector.begin( ), myVector.end( ), std::ostream_iterator< int >( std::cout, " " ) );
 
   return 0;
 }
