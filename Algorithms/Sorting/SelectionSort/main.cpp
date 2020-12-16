@@ -1,4 +1,6 @@
+#include <functional>
 #include <iostream>
+#include <vector>
 
 //Вариант Хирьянова;
 
@@ -50,10 +52,47 @@ void SelectionSort( int arr[], int l, int r ) {
   }
 }
 
+template < typename RandIterator, typename Pred = std::less<> >
+void selectionSort2( RandIterator b, RandIterator e );
+
+template < typename RandIterator, typename Pred = std::less<> >
+void selectionSort2( RandIterator b, RandIterator e, Pred p );
+
 int main( ) {
   int arr[] { 9, 8, 7, 6, 5, 4, 3, 2, 1 };
-  SelectionSort( arr, 0, 8 );
-  for ( int i = 0; i <= 8; ++i ) {
-    std::cout << arr[ i ] << ' ';
+  //  SelectionSort( arr, 0, 8 );`5`5
+  //  for ( int i = 0; i <= 8; ++i ) {
+  //    std::cout << arr[ i ] << ' ';
+  //  }
+  //  std::cout << std::endl;
+  //  selectionSort2( arr, arr + 8 );
+
+  //  for ( int i = 0; i <= 8; ++i ) {
+  //    std::cout << arr[ i ] << ' ';
+  //  }
+  //  std::cout << std::endl;
+
+  std::vector< int > t { arr, arr + 9 };
+  selectionSort2( std::begin( t ), std::end( t ), std::greater< int >( ) );
+  for ( auto el : t ) std::cout << el << " ";
+}
+
+template < typename RandIterator, typename Pred >
+void selectionSort2( RandIterator b, RandIterator e, Pred p ) {
+  while ( b != e ) {
+    RandIterator max = b;
+    RandIterator t = b;
+    while ( t != e ) {
+      if ( p( *max, *t ) ) max = t;
+      ++t;
+    }
+    std::swap( *b, *max );
+    ++b;
   }
+}
+
+template < typename RandIterator, typename Pred >
+void selectionSort2( RandIterator b, RandIterator e ) {
+  Pred p;
+  selectionSort2( b, e, p );
 }
