@@ -6,6 +6,7 @@ SUBDIRS += \
 	CalcPostfix \
 	ConnectivityProblem \
 	DynamicProgramming \
+	FastPow \
 	GRAPHY \
 	InfixToPostfix \
 	LevesteinLenth \
