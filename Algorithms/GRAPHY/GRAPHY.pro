@@ -2,4 +2,5 @@ TEMPLATE = subdirs
 
 SUBDIRS += \
     AlgorithmDejkstra \
-    AlgorithmLloudUorshell
+    AlgorithmLloudUorshell \
+    DfsGraph
