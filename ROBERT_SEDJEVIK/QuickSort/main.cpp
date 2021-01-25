@@ -23,7 +23,7 @@ void quickSortrecursive( Item a[], int l, int r ) {
   quickSortrecursive( a, idx + 1, r );
 }
 
-// TODO ТУТ!!!
+// TODO ТУТ РАЗОБРАТЬ СНОВА!!!
 template < typename Item >
 int partition( Item a[], int l, int r ) {
   int el = a[ r ];
