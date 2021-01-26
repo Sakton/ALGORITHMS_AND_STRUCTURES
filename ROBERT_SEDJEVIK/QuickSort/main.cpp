@@ -7,10 +7,13 @@ void quickSortrecursive( Item a[], int l, int r );
 template < typename Item >
 int partition( Item a[], int l, int r );
 
+// template<typename BidirectionalIterator>
+
 int main( ) {
+  // int arr[] { 8, 2, 6, 9, 1, 3, 5, 4, 7, 0 };
   int arr[] { 8, 2, 6, 9, 1, 3, 5, 4, 7, 0 };
   /*std::cout <<  partition( arr, 0, 8 ); */
-  quickSortrecursive( arr, 0, 8 );
+  quickSortrecursive( arr, 0, 9 );
 
   for ( auto x : arr ) std::cout << x << " ";
 }
@@ -26,14 +29,14 @@ void quickSortrecursive( Item a[], int l, int r ) {
 // TODO ТУТ РАЗОБРАТЬ СНОВА!!!
 template < typename Item >
 int partition( Item a[], int l, int r ) {
-  int el = a[ r ];
   int i = l;
   int j = r - 1;
+  int pivot = a[ r ];
   while ( i < j ) {
-    while ( a[ i ] < el ) ++i;
-    while ( el < a[ j ] ) --j;
-    if ( i <= j ) std::swap( a[ i ], a[ j ] );
+    while ( i <= r && a[ i ] < pivot ) ++i;
+    while ( j >= 0 && pivot < a[ j ] ) --j;
+    if ( i < j ) std::swap( a[ i ], a[ j ] );
   }
-  std::swap( a[ r ], a[ i ] );
+  std::swap( a[ i ], a[ r ] );
   return i;
 }
