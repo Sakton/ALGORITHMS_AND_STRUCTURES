@@ -1,7 +1,17 @@
 #ifndef LISTARRAY_H
 #define LISTARRAY_H
-
+#include <stdexcept>
 //класс массив-список
+
+class ListArrayIndexOutOfRangeException : public std::out_of_range {
+ public:
+  ListArrayIndexOutOfRangeException( const std::string& message = "" );
+};
+
+class ListArrayException : public std::exception {
+ public:
+  ListArrayException( const std::string& message = "" );
+};
 
 const int MAX_LIST = 100;
 typedef int ListItemType;
@@ -25,9 +35,9 @@ class ListArray {
   // Извлекает из списка элемент и возвращает его копию, и удалает из списка
 
  private:
-  ListItemType items[ MAX_LIST ];
-  int size;
-  int translate( int index ) const;
+  ListItemType items[ MAX_LIST ];    //массив элементов
+  int size;			     //количество элементов
+  int translate( int index ) const;  //преобразование позиции в индекс (считаем от 1)
 };
 
 #endif // LISTARRAY_H

@@ -7,6 +7,6 @@
 //  InsertionSort();
 //};
 
-void insertionSort( int arr[], int n );
+void insertionSort( int arr[], int n, bool ( *pred )( int, int ) );
 
 #endif // INSERTIONSORT_H
